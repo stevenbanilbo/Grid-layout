@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+body{
+
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+
+.your-grid-container-class
+{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    display: grid;  
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+    /* place-items: stretch;
+    justify-content: stretch; */
+    gap: 10px;
+    
+}
+
+
+.leftCell-1{
+
+
+    background-color:peachpuff;
+    grid-column: 1 / span 4;
+    grid-row: 1 /span 5;
+    
+}
+
+
+.leftCell-2{
+
+
+    background-color:greenyellow;
+    grid-column: 1 /span  2;
+    grid-row: 6 /span 4;
+    
+}
+
+.leftCell-3{
+
+
+    background-color: cornflowerblue;
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+    /* align-self: stretch;  */
+}
+
+.leftCell-4{
+
+
+    background-color: orangered;
+    grid-column: 3 /span  2;
+    grid-row: 7 / span 3;
+
+}
+
+.leftCell-5{
+
+    background-color: olive;
+    grid-column: 1 /span  4;
+    grid-row: 10 / span 9;
+
+}
+
+.midCell-1{
+
+    
+
+    background-color: lightskyblue;
+    grid-column: 5 /span  1;
+    grid-row: 1 / span 8;
+}
+
+.midCell-2{
+
+    background-color: darkblue;
+    grid-column: 6 /span  1;
+    grid-row: 1 / span 2;
+}
+
+.midCell-3{
+
+    background-color: darkcyan;
+    grid-column: 6 /span  1;
+    grid-row: 3 / span 6;
+}
+
+
+.midCell-4{
+
+    background-color: gold;
+    grid-column: 5 /span  2;
+    grid-row: 9 / span 10;
+}
+
+
+.rightCell-1{
+
+    background-color: limegreen;
+    grid-column: 7 /span  10;
+    grid-row: 1 / span 2;
+}
+.rightCell-2{
+
+    background-color: lightgreen;
+    grid-column: 7 /span  1;
+    grid-row: 3 / span 2;
+}
+
+
+.rightCell-3{
+
+    background-color: rgb(157, 221, 54);
+    grid-column: 8 /span  9;
+    grid-row: 3 / span 2;
+}
+
+
+.rightCell-4{
+
+    background-color: lightsalmon;
+    grid-column: 7 /span  10;
+    grid-row: 5 / span 14;
+}
+
